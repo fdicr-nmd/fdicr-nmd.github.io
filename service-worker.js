@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d7799acf063649fcd7099e57642ef132.js"
+  "/precache-manifest.16479165fe9bccec9511d34a4d270376.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fdi-front"});
