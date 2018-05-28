@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.ec688bd222d848cec28d7170ed74d7a8.js", "https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
+importScripts("/precache-manifest.a4d16d82c43874f51a562a47f57bf90e.js", "https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 /* eslint-env worker, serviceworker */
 /* global workbox */
@@ -11,6 +11,9 @@ workbox.core.setCacheNameDetails({ prefix: 'fdi-front' });
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+// Offline Google Analytics.
+workbox.googleAnalytics.initialize();
 
 // Cache Google Fonts.
 workbox.routing.registerRoute(
