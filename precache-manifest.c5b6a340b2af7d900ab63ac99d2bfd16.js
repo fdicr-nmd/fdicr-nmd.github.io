@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/img/social.png"
   },
   {
-    "revision": "9ef00dd93f4e1b8a0ddf461a4179ff66",
+    "revision": "a4a82477e94c267feb022682df9866f8",
     "url": "/index.html"
   },
   {
-    "revision": "f51042c12a4c056ba352",
-    "url": "/js/app.f51042c1.js"
+    "revision": "2abca5190c5fb0987676",
+    "url": "/js/app.2abca519.js"
   },
   {
     "revision": "825755b931f66b38c08b",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/css/vendors~app.0.903ea136.css"
   },
   {
-    "revision": "f51042c12a4c056ba352",
+    "revision": "2abca5190c5fb0987676",
     "url": "/css/app.55f0386b.css"
   }
 ];
